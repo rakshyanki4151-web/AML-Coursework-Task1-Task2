@@ -1,0 +1,3 @@
+target,n_gpr_training_points,n_pca_components,peak_memory_mb,latency_mean_ms,latency_p95_ms,latency_max_ms
+solar_irradiance,1086,15,0.16,0.135,0.207,0.403
+wind_speed,1420,14,0.18,0.135,0.197,0.443

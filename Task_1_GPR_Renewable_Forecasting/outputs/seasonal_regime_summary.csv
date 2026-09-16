@@ -1,0 +1,7 @@
+target,kernel,regime,mean,std,count
+solar_irradiance,matern,dry_winter,0.10170657997456511,0.030979383381548525,3
+solar_irradiance,periodic,dry_winter,0.101760397934683,0.030127046734467054,3
+solar_irradiance,rbf,dry_winter,0.09892228316604366,0.0314856580099899,3
+wind_speed,matern,dry_winter,0.6493007347326122,0.09162508320986608,3
+wind_speed,periodic,dry_winter,0.6494572357232916,0.09116956043957467,3
+wind_speed,rbf,dry_winter,0.6484228482556385,0.0905413267285773,3

@@ -1,0 +1,102 @@
+{
+  "solar_irradiance": {
+    "full_pipeline": {
+      "RMSE": 0.09648912695132594,
+      "MAE": 0.06769461936412671,
+      "R2": 0.8409026299971682,
+      "val_rmse_at_pso_optimum": 0.09535643966274002,
+      "n_features": 52,
+      "elapsed_seconds": 74.6
+    },
+    "no_pca": {
+      "RMSE": 0.084400917622078,
+      "MAE": 0.05760362323342208,
+      "R2": 0.8782691698996514,
+      "val_rmse_at_pso_optimum": 0.09382190015473567,
+      "n_features": 52,
+      "elapsed_seconds": 94.6
+    },
+    "no_residual_learning": {
+      "RMSE": 0.08941123004557136,
+      "MAE": 0.062481882105554845,
+      "R2": 0.8633875166763944,
+      "val_rmse_at_pso_optimum": 0.08338327418962668,
+      "n_features": 52,
+      "elapsed_seconds": 82.4
+    },
+    "no_cloud_features": {
+      "RMSE": 0.12641334579002786,
+      "MAE": 0.09580049210713833,
+      "R2": 0.7269186137881889,
+      "val_rmse_at_pso_optimum": 0.0999991114882596,
+      "n_features": 43,
+      "elapsed_seconds": 94.0
+    },
+    "no_physics_features": {
+      "RMSE": 0.1012029210376028,
+      "MAE": 0.07297865682790805,
+      "R2": 0.8249781208547253,
+      "val_rmse_at_pso_optimum": 0.09492128261280425,
+      "n_features": 49,
+      "elapsed_seconds": 107.5
+    },
+    "calendar_features_only": {
+      "RMSE": 0.08483041478930727,
+      "MAE": 0.052150256926355346,
+      "R2": 0.877027096318818,
+      "val_rmse_at_pso_optimum": 0.07736672405712397,
+      "n_features": 12,
+      "elapsed_seconds": 60.0
+    }
+  },
+  "wind_speed": {
+    "full_pipeline": {
+      "RMSE": 0.5769779103161674,
+      "MAE": 0.4309659466475003,
+      "R2": 0.6298991494411013,
+      "val_rmse_at_pso_optimum": 0.5671178907060439,
+      "n_features": 52,
+      "elapsed_seconds": 80.3
+    },
+    "no_pca": {
+      "RMSE": 0.5926969654020819,
+      "MAE": 0.45121840581663863,
+      "R2": 0.6094585650657981,
+      "val_rmse_at_pso_optimum": 0.5545304004960888,
+      "n_features": 52,
+      "elapsed_seconds": 116.2
+    },
+    "no_residual_learning": {
+      "RMSE": 0.6448053678594111,
+      "MAE": 0.5170064707205052,
+      "R2": 0.537769074295569,
+      "val_rmse_at_pso_optimum": 0.5260513017851705,
+      "n_features": 52,
+      "elapsed_seconds": 108.6
+    },
+    "no_cloud_features": {
+      "RMSE": 0.6752341696223289,
+      "MAE": 0.5322609339309388,
+      "R2": 0.4931137240060953,
+      "val_rmse_at_pso_optimum": 0.5329494482098578,
+      "n_features": 43,
+      "elapsed_seconds": 114.9
+    },
+    "no_physics_features": {
+      "RMSE": 0.5855935904442907,
+      "MAE": 0.43905905299674103,
+      "R2": 0.618763617975918,
+      "val_rmse_at_pso_optimum": 0.5680606350428972,
+      "n_features": 49,
+      "elapsed_seconds": 128.3
+    },
+    "calendar_features_only": {
+      "RMSE": 0.621921095797597,
+      "MAE": 0.48578975061543295,
+      "R2": 0.5699962061695537,
+      "val_rmse_at_pso_optimum": 0.5078112668782918,
+      "n_features": 12,
+      "elapsed_seconds": 115.5
+    }
+  }
+}
